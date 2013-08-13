@@ -20,13 +20,12 @@
             <div class="page-body">
                 <div id="page-body-iscroll-wrapper">
                     <div class="scroller">
-{+body/}
+                        {+body/}
                     </div>
                 </div>
             </div>
-            <footer>
-                footer here
-            </footer>
+            
+            
         </div>
     </body>
 </html>

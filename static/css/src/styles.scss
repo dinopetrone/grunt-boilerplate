@@ -1,5 +1,7 @@
 @import "compass";
 
+
+
 // Core variables and mixins
 @import "variables"; // Modify this for custom colors, font-sizes, etc
 @import "fonts";
@@ -8,6 +10,8 @@
 
 // CSS Reset
 @import "reset";
+
+
 
 
 // Grid system and page structure
@@ -24,8 +28,8 @@
 //@import "sprites";
 
 //compass sprites 
-@import "sprites/icons/*.png";
-@include all-icons-sprites;
+// @import "sprites/icons/*.png";
+// @include all-icons-sprites;
 
 
 
