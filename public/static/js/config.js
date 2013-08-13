@@ -1,0 +1,8 @@
+requirejs.config({
+	shim: {
+		
+	},
+	paths: {
+		
+	}
+});

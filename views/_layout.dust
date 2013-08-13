@@ -17,15 +17,10 @@
             {+header}
                 {>_header/}
             {/header}
-            <div class="page-body">
-                <div id="page-body-iscroll-wrapper">
-                    <div class="scroller">
-                        {+body/}
-                    </div>
-                </div>
-            </div>
-            
-            
+            {+body/}
+            {+footer}
+                {>_footer/}
+            {/footer}
         </div>
     </body>
 </html>

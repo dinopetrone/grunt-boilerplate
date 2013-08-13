@@ -46,24 +46,17 @@ module.exports = function(grunt) {
 		requirejs: {
 			compile: {
 				options: {
-					appDir: 'www-dev/',
-					baseUrl: 'js',
-					dir: 'dist/',
+					baseUrl: 'public/static/js',
+					dir: 'public/static/js/built',
 					optimizeCss: 'standard',
-					optimize: 'none',
+					//optimize: 'none',
 					//findNestedDependencies: true,
 					preserveLicenseComments: false,
 					//re-route libs to top-level
 					paths: {},
-					pragmasOnSave: {
-						excludeJade: true
-					},
 					modules: [{
 							name: 'app/main',
 							exclude: [
-									'jquery',
-									'backbone',
-									'underscore'
 							]
 						}
 					]
