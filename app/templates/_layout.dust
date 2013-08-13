@@ -1,0 +1,32 @@
+<!doctype html><!--[if lt IE 7]><html class="lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html class="lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]><html class="lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <title>{title} - Blood</title>
+        <meta name="HandheldFriendly" content="True">
+        <meta name="format-detection" content="telephone=no, email=no">
+        <meta name="apple-mobile-web-app-capable" content="no">
+        <meta name="description" content="">
+        <link rel="stylesheet" href="static/css/styles.css">
+        <script src="static/js/libs/require.js" data-main="static/js/main"></script>
+    </head>
+    <body>
+        <div class="container">
+            {+header}
+                {>_header/}
+            {/header}
+            <div class="page-body">
+                <div id="page-body-iscroll-wrapper">
+                    <div class="scroller">
+{+body/}
+                    </div>
+                </div>
+            </div>
+            <footer>
+                footer here
+            </footer>
+        </div>
+    </body>
+</html>

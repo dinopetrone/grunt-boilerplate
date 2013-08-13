@@ -1,0 +1,17 @@
+/.idea/
+*.pyc
+/.sass-cache/
+/static/css/.sass-cache/
+/static/css/  .css
+/static/css/*.css
+.DS_Store
+/static/images/sprite-*.png
+/static/images/sprite/icons-*.png
+/luna-mobile*.zip
+/node_modules/
+app/*.html
+/app/static/css/.sass-cache/
+/production/
+/app/static/css/styles.css
+/app/static/images/sprite/*.png
+.sass-cache

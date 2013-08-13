@@ -1,0 +1,30 @@
+{
+  "name": "luna-mobile",
+  "version": "0.1.1",
+  "description": "Project Luna for mobile",
+  "main": "grunt.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/MadeInHaus/LunaMobile.git"
+  },
+  "dependencies": {
+    "grunt": "~0.4.0rc8",
+    "grunt-lib-contrib": "~0.5.2",
+    "grunt-templater": "0.0.3-1",
+    "grunt-contrib-compass": "~0.1.2",
+    "grunt-contrib-copy": "~0.4.0",
+    "grunt-contrib-requirejs": "~0.4.0",
+    "requirejs": "~2.1.4",
+    "grunt-contrib-jshint": "~0.1.0",
+    "grunt-regarde": "~0.1.1",
+    "grunt-contrib-connect": "~0.1.2",
+    "dustjs-linkedin": "~1.2.1"
+  },
+  "devDependencies": {}
+}
