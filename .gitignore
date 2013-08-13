@@ -6,3 +6,4 @@ public/*.html
 /public/static/images/sprite/icons-*.png
 /node_modules/
 .sass-cache
+/public/static/js/built

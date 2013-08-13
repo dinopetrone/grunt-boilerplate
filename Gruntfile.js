@@ -9,7 +9,7 @@ module.exports = function(grunt) {
 			dist: {
 				options: {
 					cssDir: 'public/static/css',
-					sassDir: 'static/css/src'
+					sassDir: 'sass'
 				}
 			}
 		},
@@ -46,17 +46,24 @@ module.exports = function(grunt) {
 		requirejs: {
 			compile: {
 				options: {
-					baseUrl: 'static/js',
-					dir: 'public/static/js',
+					appDir: 'www-dev/',
+					baseUrl: 'js',
+					dir: 'dist/',
 					optimizeCss: 'standard',
-					//optimize: 'none',
+					optimize: 'none',
 					//findNestedDependencies: true,
 					preserveLicenseComments: false,
 					//re-route libs to top-level
 					paths: {},
+					pragmasOnSave: {
+						excludeJade: true
+					},
 					modules: [{
 							name: 'app/main',
 							exclude: [
+									'jquery',
+									'backbone',
+									'underscore'
 							]
 						}
 					]
